@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 0.8;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    left: 20px;
+    top: 40px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+/* Make "Kiersten Johnson" look like the links */
+.sidebar .name {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #0070f3;
+    font-size: 14px;
+}
+
+.content {
+    font-family: Arial, sans-serif; /* Same as body/sidebar */
+    font-size: 14px; /* Matches sidebar links */
+    line-height: 1.2; /* Same spacing */
+    color: black; /* Adjust as needed */
+}
